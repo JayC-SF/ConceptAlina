@@ -41,13 +41,45 @@ export const PRODUCTS: Product[] = [
     brand: 'L\'Oréal Professionnel',
     price: '42$',
     description: 'Empêche la casse du cheveu et préserve l\'éclat de la coloration.',
-    imageUrl: 'https://images.unsplash.com/photo-1598454123302-3c870911fe76?auto=format&fit=crop&q=80&w=800'
+    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'p5',
+    name: 'Masque Hydra-Apaisant',
+    brand: 'Kérastase',
+    price: '72$',
+    description: 'Traitement apaisant pour cuir chevelu et longueurs.',
+    imageUrl: 'https://images.unsplash.com/photo-1552046122-03184de85e08?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'p6',
+    name: 'One United Multi-Benefit',
+    brand: 'Redken',
+    price: '34$',
+    description: 'Soin tout-en-un offrant 25 bénéfices pour tous les types de cheveux.',
+    imageUrl: 'https://images.unsplash.com/photo-1590439472477-a61988898993?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'p7',
+    name: 'Concentré Genesis Ampoules',
+    brand: 'Kérastase',
+    price: '89$',
+    description: 'Cure intensive anti-chute pour cheveux fragilisés.',
+    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    id: 'p8',
+    name: 'Steampod Serum de Protection',
+    brand: 'L\'Oréal Professionnel',
+    price: '32$',
+    description: 'Protection thermique optimale pour un lissage parfait au Steampod.',
+    imageUrl: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&q=80&w=800'
   }
 ];
 
 export const GALLERY: GalleryImage[] = [
   { url: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&q=80&w=800', alt: 'Blond polaire balayage', category: 'Coloration' },
-  { url: 'https://images.unsplash.com/photo-1595476108010-b4d1f8c2b3f1?auto=format&fit=crop&q=80&w=800', alt: 'Coupe dégradée moderne', category: 'Coupe' },
+  { url: 'https://images.unsplash.com/photo-1592136957897-b2b6ca21e10d?auto=format&fit=crop&q=80&w=800', alt: 'Coupe dégradée moderne', category: 'Coupe' },
   { url: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&q=80&w=800', alt: 'Brushing volumineux', category: 'Style' },
   { url: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=800', alt: 'Chignon de mariée', category: 'Événement' },
   { url: 'https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?auto=format&fit=crop&q=80&w=800', alt: 'Copper hair trend', category: 'Coloration' },
